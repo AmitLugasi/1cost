@@ -3,83 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1Cost | Support & Privacy</title>
+    <title>1Cost - Privacy Policy</title>
     <style>
-        :root {
-            --mint: #00FFC2; /* T.mint color from CLAUDE.md */
-            --bg: #0A0A0A;
-            --glass: rgba(255, 255, 255, 0.05);
-        }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--bg);
-            color: white;
-            line-height: 1.6;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .container {
-            max-width: 600px;
-            padding: 40px;
-            background: var(--glass);
-            backdrop-filter: blur(20px); /* Glassmorphic effect */
-            border-radius: 24px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-            margin: 20px;
-            text-align: center;
-        }
-        h1 { color: var(--mint); margin-bottom: 10px; }
-        h2 { color: var(--mint); font-size: 1.2rem; margin-top: 30px; }
-        p { opacity: 0.8; font-size: 0.95rem; }
-        .logo {
-            width: 80px;
-            height: 80px;
-            border-radius: 18px;
-            margin-bottom: 20px;
-            border: 2px solid var(--mint);
-            box-shadow: 0 0 15px rgba(0, 255, 194, 0.3);
-        }
-        .btn {
-            display: inline-block;
-            margin-top: 25px;
-            padding: 12px 24px;
-            background: var(--mint);
-            color: black;
-            text-decoration: none;
-            border-radius: 12px;
-            font-weight: bold;
-            transition: transform 0.2s ease;
-        }
-        .btn:hover { transform: scale(1.05); }
-        footer { margin-top: 40px; font-size: 0.8rem; opacity: 0.5; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #f5f5f7; background-color: #000; padding: 2rem; max-width: 800px; margin: auto; }
+        h1 { color: #00ffa3; } /* Mint color matching your T.mint */
+        h2 { color: #00ffa3; border-bottom: 1px solid #333; padding-bottom: 10px; margin-top: 2rem; }
+        .highlight { color: #00ffa3; font-weight: bold; }
+        footer { margin-top: 3rem; font-size: 0.8rem; color: #888; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>1Cost</h1>
-        <p>Simple. Private. Intelligent Expense Tracking.</p>
+    <h1>Privacy Policy for 1Cost</h1>
+    <p>Last Updated: March 2026</p>
 
-        <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.1); margin: 30px 0;">
+    <p>At 1Cost, your privacy is our top priority. As a security-focused application, we operate on the principle of <strong>Zero Data Collection</strong>.</p>
 
-        <h2>Privacy Policy</h2>
-        <p>At 1Cost, your financial privacy is our top priority. We follow a strict "No Data Collection" policy.</p>
-        <ul style="text-align: left; display: inline-block; padding: 0;">
-            <li>🔒 <strong>Local Storage:</strong> All your data is stored securely on your device via SwiftData.</li>
-            <li>☁️ <strong>iCloud Sync:</strong> Data is synced only through your personal Apple iCloud account.</li>
-            <li>🚫 <strong>No Tracking:</strong> We do not use third-party trackers or sell your information.</li>
+    <h2>1. Data Storage</h2>
+    <p>All financial data, expense titles, and category information are stored <span class="highlight">locally on your device</span> using Apple's SwiftData technology. We do not have access to your data, and we do not use any external servers to store or process your financial information.</p>
+
+    <h2>2. Location Data (Spending Map)</h2>
+    <p>1Cost offers a "Spending Map" feature that allows you to visualize where your purchases occurred. 
+        <ul>
+            <li><strong>Collection:</strong> If you enable Location Tracking in Settings, the app will capture your GPS coordinates at the time of an expense.</li>
+            <li><strong>Storage:</strong> This location data is stored <span class="highlight">exclusively on your device</span>.</li>
+            <li><strong>Usage:</strong> Coordinates are used only to render "drops" on your personal map. We never share, sell, or transmit your location data to third parties or external servers.</li>
         </ul>
+    </p>
 
-        <h2>Support</h2>
-        <p>Need help or want to report a bug? I'm here to help you get the most out of 1Cost.</p>
-        <a href="mailto:amit.lugasi@icloud.com" class="btn">Contact Support</a>
+    <h2>3. Apple Pay & Shortcuts Integration</h2>
+    <p>1Cost integrates with iOS Shortcuts to automate expense logging. This integration happens locally on your iPhone. The app only processes the data provided by the shortcut you've configured.</p>
 
-        <footer>
-            &copy; 2026 Amit Lugasi | 1Cost App
-        </footer>
-    </div>
+    <h2>4. Third-Party Services</h2>
+    <p>The app does not use third-party analytics, tracking pixels, or advertising frameworks. Your financial habits remain private to you.</p>
+
+    <h2>5. Contact</h2>
+    <p>If you have any questions regarding this policy, you can contact Amit Lugasi via the app's GitHub repository.</p>
+
+    <footer>
+        &copy; 2026 Amit Lugasi. Built with security in mind.
+    </footer>
 </body>
 </html>
